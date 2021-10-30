@@ -10,7 +10,7 @@ void main()
 	cgpa=8.0;
 	initial='M';
 	//output
-	printf("age %d\n",age);
-	printf("percentage %f\n",cgpa);
-	printf("initial %c",initial);
+	printf("age\tpercentage\tinitial\n");
+	printf("%d\t%f\t%c",age,cgpa,initial);
+	
 }
